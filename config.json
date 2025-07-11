@@ -33,7 +33,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "Amil_v2.1_genomic.gff",
-      "name": "Gene Features",
+      "name": "Amil_v2.1 Gene Features",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "Gff3Adapter",

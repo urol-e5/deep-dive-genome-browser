@@ -20,13 +20,37 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "amil_miRNAs",
+      "trackId": "Apul_miRNAs",
       "name": "Known miRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
           "uri": "data/Apul-vAmil/known_miRNAs.gff3"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Amil_v2.1_genomic.gff",
+      "name": "Gene Features",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Apul_lncRNAs",
+      "name": "lncRNAs",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Apul-vAmil/Apul_lncRNA.bed"
         }
       }
     }
@@ -42,6 +66,16 @@
           "id": "amil_miRNAs-track",
           "type": "FeatureTrack",
           "configuration": "amil_miRNAs"
+        },
+        {
+          "id": "amil_features-track",
+          "type": "FeatureTrack",
+          "configuration": "amil_features"
+        },
+        {
+          "id": "amil_lncRNAs-track",
+          "type": "FeatureTrack",
+          "configuration": "amil_lncRNAs"
         }
       ]
     }

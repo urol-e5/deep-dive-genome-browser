@@ -1,1 +1,32 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="./favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="A fast and flexible genome browser"/><link rel="manifest" href="./manifest.json"/><title>JBrowse</title><script defer="defer" src="static/js/main.0e9c0dc7.js"></script></head><body style="overscroll-behavior:none"><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Acropora Genome Browser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background: #e0f7fa;
+        padding: 20px;
+        text-align: center;
+      }
+      .header img {
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/logo.png" alt="Coral logo" />
+      <h1>Amil Genome Browser</h1>
+      <p>Visualize miRNAs, lncRNAs, and genomic features for <i>Acropora millepora</i>.</p>
+    </div>
+    <jbrowse-root config="config.json"></jbrowse-root>
+    <script type="module" src="jbrowse-web/dist/jbrowse-web.esm.js"></script>
+  </body>
+</html>

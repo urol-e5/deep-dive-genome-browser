@@ -2,34 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Acropora Genome Browser</title>
+    <title>JBrowse Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      body {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      .header {
-        background: #e0f7fa;
-        padding: 20px;
-        text-align: center;
-      }
-      .header img {
-        height: 80px;
-      }
+      body { margin: 0; font-family: sans-serif; }
+      .header { text-align: center; background: #e0f7fa; padding: 20px; }
     </style>
   </head>
   <body>
     <div class="header">
-      <img src="images/logo.png" alt="Coral logo" />
-      <h1>Deeper Dive Genome Browser</h1>
-      <p>Visualize miRNAs, lncRNAs, and genomic features for three awesome species.</p>
+      <h1>JBrowse Genome Viewer</h1>
+      <p>Hosted on GitHub Pages</p>
     </div>
 
     <jbrowse-root config="./config.json"></jbrowse-root>
 
-    <!-- ✅ Load JBrowse Web from official CDN -->
     <script type="module" src="https://unpkg.com/@jbrowse/web@latest/dist/jbrowse-web.esm.js"></script>
   </body>
 </html>

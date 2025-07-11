@@ -1,28 +1,49 @@
 {
   "assemblies": [
     {
-      "name": "GCF_013753865.1_Amil_v2.1_genomic.fna",
+      "name": "Amil_v2.1",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "GCF_013753865.1_Amil_v2.1_genomic.fna-ReferenceSequenceTrack",
+        "trackId": "amil_refseq",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/assemblies/GCF_013753865.1_Amil_v2.1_genomic.fna",
-            "locationType": "UriLocation"
+            "uri": "data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna"
           },
           "faiLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/assemblies/GCF_013753865.1_Amil_v2.1_genomic.fna.fai",
-            "locationType": "UriLocation"
+            "uri": "data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna.fai"
           }
         }
       }
     }
   ],
-  "configuration": {},
-  "connections": [],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "amil_miRNAs",
+      "name": "Known miRNAs",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/Apul-vAmil/known_miRNAs.gff3"
+        }
+      }
+    }
+  ],
   "defaultSession": {
-    "name": "New Session"
-  },
-  "tracks": []
+    "name": "Amil default session",
+    "view": {
+      "id": "linearGenomeView",
+      "type": "LinearGenomeView",
+      "assemblyName": "Amil_v2.1",
+      "tracks": [
+        {
+          "id": "amil_miRNAs-track",
+          "type": "FeatureTrack",
+          "configuration": "amil_miRNAs"
+        }
+      ]
+    }
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "assemblies": [
+    {
+      "name": "GCF_013753865.1_Amil_v2.1_genomic.fna",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCF_013753865.1_Amil_v2.1_genomic.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/assemblies/GCF_013753865.1_Amil_v2.1_genomic.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/assemblies/GCF_013753865.1_Amil_v2.1_genomic.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}

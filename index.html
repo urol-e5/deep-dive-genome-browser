@@ -26,7 +26,10 @@
       <h1>Deeper Dive Genome Browser</h1>
       <p>Visualize miRNAs, lncRNAs, and genomic features for three awesome species.</p>
     </div>
+
     <jbrowse-root config="config.json"></jbrowse-root>
-    <script type="module" src="jbrowse-web/dist/jbrowse-web.esm.js"></script>
+
+    <!-- ✅ Load JBrowse Web from official CDN -->
+    <script type="module" src="https://unpkg.com/@jbrowse/web@latest/dist/jbrowse-web.esm.js"></script>
   </body>
 </html>

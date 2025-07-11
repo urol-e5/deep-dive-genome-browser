@@ -38,7 +38,7 @@
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.gff"
+          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.gff"
         }
       }
     },

@@ -8,10 +8,10 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna"
           },
           "faiLocation": {
-            "uri": "data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna.fai"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna.fai"
           }
         }
       }

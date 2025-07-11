@@ -1,0 +1,5 @@
+jbrowse add-assembly GCF_013753865.1_Amil_v2.1_genomic.fna --load copy
+
+https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/assemblies/
+
+jbrowse add-assembly https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/assemblies/GCF_013753865.1_Amil_v2.1_genomic.fna --load copy

@@ -21,7 +21,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "Apul_miRNAs",
-      "name": "Known miRNAs",
+      "name": "Apul_miRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "Gff3Adapter",
@@ -45,7 +45,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "Apul_lncRNAs",
-      "name": "lncRNAs",
+      "name": "Apul_lncRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "BedAdapter",

@@ -179,28 +179,24 @@
     }
   ],
   "defaultSession": {
-    "name": "Apul and Peve Features",
-    "view": {
-      "id": "linearGenomeView",
-      "type": "LinearGenomeView",
-      "assemblyName": "Amil_v2.1",
-      "tracks": [
-        {
-          "id": "Apul_miRNAs-track",
-          "type": "FeatureTrack",
-          "configuration": "Apul_miRNAs"
-        },
-        {
-          "id": "amil_features-track",
-          "type": "FeatureTrack",
-          "configuration": "amil_features"
-        },
-        {
-          "id": "amil_lncRNAs-track",
-          "type": "FeatureTrack",
-          "configuration": "amil_lncRNAs"
-        }
-      ]
-    }
+  "name": "Apul Features",
+  "view": {
+    "id": "linear-genome-view-1",
+    "type": "LinearGenomeView",
+    "assemblyName": "Amil_v2.1",
+    "tracks": [
+      {
+        "type": "FeatureTrack",
+        "configuration": "Apul_miRNAs"
+      },
+      {
+        "type": "FeatureTrack",
+        "configuration": "amil_features"
+      },
+      {
+        "type": "FeatureTrack",
+        "configuration": "amil_lncRNAs"
+      }
+    ]
   }
 }

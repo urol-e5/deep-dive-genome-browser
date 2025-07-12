@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: ../docs  # Goes to root-level docs/ folder
+
+website:
+  title: "DIVE Platform"
+  navbar:
+    left:
+      - text: Home
+        file: index.qmd
+      - text: About
+        file: about.qmd
+      - text: Genome Browser
+        href: ../index.html  # Relative link to JBrowse's index

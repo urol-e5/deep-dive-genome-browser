@@ -1,4 +1,4 @@
-title: "Welcome" format: html ---
+
 
 # Welcome to DIVE
 
@@ -6,4 +6,4 @@ Data-driven Insights into Variation and Epigenetics across coral species.
 
 ![dive](img/dive.png)
 
-👉 [Explore JBrowse Genome Browser](../index.html)
+👉 [Explore JBrowse Genome Browser](../jbrowse/index.html)

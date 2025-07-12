@@ -185,6 +185,7 @@
       "id": "amil-view",
       "type": "LinearGenomeView",
       "assemblyName": "Amil_v2.1",
+      "loc": "HiC_scaffold_1:1-50000",
       "tracks": [
         { "type": "FeatureTrack", "configuration": "amil_lncRNAs" }
       ]
@@ -193,6 +194,7 @@
       "id": "peve-view",
       "type": "LinearGenomeView",
       "assemblyName": "Peve_v1",
+      "loc": "scaffold_1:1-50000",
       "tracks": [
         { "type": "FeatureTrack", "configuration": "peve_lncRNAs" }
       ]
@@ -201,6 +203,7 @@
       "id": "pmea-view",
       "type": "LinearGenomeView",
       "assemblyName": "Pmea_v1",
+      "loc": "contig_1:1-50000",
       "tracks": [
         { "type": "FeatureTrack", "configuration": "pmea_lncRNAs" }
       ]

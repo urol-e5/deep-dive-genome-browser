@@ -1,41 +1,38 @@
 {
-  "assemblies": [
-    {
-      "name": "Amil_v2.1",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "amil_refseq",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna"
-          },
-          "faiLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna.fai"
-          }
-        }
-      }
-    },
-    {
-      "name": "Peve_v1",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "peve_refseq",
-        "adapter": {
-          "type": "BgzipFastaAdapter",
-          "fastaLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz"
-          },
-          "faiLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz.fai"
-          },
-          "gziLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz.gzi"
-          }
+"assemblies": [
+  {
+    "name": "Amil_v2.1",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "amil_refseq",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna"
+        },
+        "faiLocation": {
+          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Apul-vAmil/GCF_013753865.1_Amil_v2.1_genomic.fna.fai"
         }
       }
     }
-  ],
+  },
+  {
+    "name": "Peve_v1",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "peve_refseq",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa"
+        },
+        "faiLocation": {
+          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.fai"
+        }
+      }
+    }
+  }
+],
   "tracks": [
     {
       "type": "FeatureTrack",

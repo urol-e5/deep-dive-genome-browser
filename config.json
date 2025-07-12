@@ -15,6 +15,25 @@
           }
         }
       }
+    },
+    {
+      "name": "Peve_v1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "peve_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz"
+          },
+          "faiLocation": {
+            "uri": "data/Peve/Porites_evermanni_v1.fa.gz.fai"
+          },
+          "gziLocation": {
+            "uri": "data/Peve/Porites_evermanni_v1.fa.gz.gzi"
+          }
+        }
+      }
     }
   ],
   "tracks": [
@@ -56,67 +75,43 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "rna_140",
-      "name": "RNA ACR 140",
-      "assemblyNames": ["Amil_v2.1"],
+      "trackId": "peve_features",
+      "name": "Peve Gene Features",
+      "assemblyNames": ["Peve_v1"],
       "adapter": {
-        "type": "GtfAdapter",
-        "gtfLocation": {
-          "uri": "data/Apul-vAmil/RNA-ACR-140.gtf"
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/Peve/Porites_evermanni_v1.annot.gff"
         }
       }
     },
     {
       "type": "FeatureTrack",
-      "trackId": "rna_145",
-      "name": "RNA ACR 145",
-      "assemblyNames": ["Amil_v2.1"],
+      "trackId": "peve_lncRNAs",
+      "name": "Peve lncRNAs",
+      "assemblyNames": ["Peve_v1"],
       "adapter": {
-        "type": "GtfAdapter",
-        "gtfLocation": {
-          "uri": "data/Apul-vAmil/RNA-ACR-145.gtf"
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Peve/Peve_lncRNA.bed"
         }
       }
     },
     {
       "type": "FeatureTrack",
-      "trackId": "rna_150",
-      "name": "RNA ACR 150",
-      "assemblyNames": ["Amil_v2.1"],
+      "trackId": "peve_miRNAs",
+      "name": "Peve miRNAs",
+      "assemblyNames": ["Peve_v1"],
       "adapter": {
-        "type": "GtfAdapter",
-        "gtfLocation": {
-          "uri": "data/Apul-vAmil/RNA-ACR-150.gtf"
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "rna_173",
-      "name": "RNA ACR 173",
-      "assemblyNames": ["Amil_v2.1"],
-      "adapter": {
-        "type": "GtfAdapter",
-        "gtfLocation": {
-          "uri": "data/Apul-vAmil/RNA-ACR-173.gtf"
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "rna_178",
-      "name": "RNA ACR 178",
-      "assemblyNames": ["Amil_v2.1"],
-      "adapter": {
-        "type": "GtfAdapter",
-        "gtfLocation": {
-          "uri": "data/Apul-vAmil/RNA-ACR-178.gtf"
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/Peve/known_miRNAs.gff3"
         }
       }
     }
   ],
   "defaultSession": {
-    "name": "Apul Features on Amil",
+    "name": "Apul and Peve Features",
     "view": {
       "id": "linearGenomeView",
       "type": "LinearGenomeView",
@@ -136,31 +131,6 @@
           "id": "amil_lncRNAs-track",
           "type": "FeatureTrack",
           "configuration": "amil_lncRNAs"
-        },
-        {
-          "id": "rna_140-track",
-          "type": "FeatureTrack",
-          "configuration": "rna_140"
-        },
-        {
-          "id": "rna_145-track",
-          "type": "FeatureTrack",
-          "configuration": "rna_145"
-        },
-        {
-          "id": "rna_150-track",
-          "type": "FeatureTrack",
-          "configuration": "rna_150"
-        },
-        {
-          "id": "rna_173-track",
-          "type": "FeatureTrack",
-          "configuration": "rna_173"
-        },
-        {
-          "id": "rna_178-track",
-          "type": "FeatureTrack",
-          "configuration": "rna_178"
         }
       ]
     }

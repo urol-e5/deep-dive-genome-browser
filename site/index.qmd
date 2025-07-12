@@ -1,9 +1,8 @@
-
-
 # Welcome to DIVE
 
 Data-driven Insights into Variation and Epigenetics across coral species.
 
-![dive](img/dive.png)
+![](img/dive.png){fig-align="center"}
 
-👉 [Explore JBrowse Genome Browser](../jbrowse/index.html)
+
+👉 [Explore JBrowse Genome Browser](jbrowse/index.html)

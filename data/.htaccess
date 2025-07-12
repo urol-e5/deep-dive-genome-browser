@@ -1,3 +1,3 @@
-<FilesMatch "\.(fai|fna|gff|gff3|bed|json|bam|vcf)$">
+<FilesMatch "\.(fai|fna|fa.gz|gz.fai|gz.gzi|gff|gff3|bed|json|bam|vcf)$">
     Header set Access-Control-Allow-Origin "*"
 </FilesMatch>

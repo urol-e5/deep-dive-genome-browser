@@ -24,13 +24,13 @@
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
-            "uri": "data/Peve/Porites_evermanni_v1.fa.gz"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz"
           },
           "faiLocation": {
-            "uri": "data/Peve/Porites_evermanni_v1.fa.gz.fai"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz.fai"
           },
           "gziLocation": {
-            "uri": "data/Peve/Porites_evermanni_v1.fa.gz.gzi"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz.gzi"
           }
         }
       }

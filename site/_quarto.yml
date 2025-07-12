@@ -12,4 +12,7 @@ website:
         file: about.qmd
       - text: Genome Browser
         href: jbrowse/index.html  # Relative link to JBrowse's index
-  
+
+format:
+  html:
+    css: styles.css  

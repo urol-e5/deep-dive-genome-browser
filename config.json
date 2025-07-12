@@ -21,7 +21,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "Apul_miRNAs",
-      "name": "Apul_miRNAs",
+      "name": "Apul miRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "Gff3Adapter",
@@ -32,8 +32,8 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "Amil_v2.1_genomic.gff",
-      "name": "Amil_v2.1 Gene Features",
+      "trackId": "amil_features",
+      "name": "Amil Gene Features",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "Gff3Adapter",
@@ -44,13 +44,73 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "Apul_lncRNAs",
-      "name": "Apul_lncRNAs",
+      "trackId": "amil_lncRNAs",
+      "name": "Apul lncRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "BedAdapter",
         "bedLocation": {
           "uri": "data/Apul-vAmil/Apul_lncRNA.bed"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rna_140",
+      "name": "RNA ACR 140",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "GtfAdapter",
+        "gtfLocation": {
+          "uri": "data/Apul-vAmil/RNA-ACR-140.gtf"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rna_145",
+      "name": "RNA ACR 145",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "GtfAdapter",
+        "gtfLocation": {
+          "uri": "data/Apul-vAmil/RNA-ACR-145.gtf"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rna_150",
+      "name": "RNA ACR 150",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "GtfAdapter",
+        "gtfLocation": {
+          "uri": "data/Apul-vAmil/RNA-ACR-150.gtf"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rna_173",
+      "name": "RNA ACR 173",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "GtfAdapter",
+        "gtfLocation": {
+          "uri": "data/Apul-vAmil/RNA-ACR-173.gtf"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rna_178",
+      "name": "RNA ACR 178",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "GtfAdapter",
+        "gtfLocation": {
+          "uri": "data/Apul-vAmil/RNA-ACR-178.gtf"
         }
       }
     }
@@ -63,9 +123,9 @@
       "assemblyName": "Amil_v2.1",
       "tracks": [
         {
-          "id": "amil_miRNAs-track",
+          "id": "Apul_miRNAs-track",
           "type": "FeatureTrack",
-          "configuration": "amil_miRNAs"
+          "configuration": "Apul_miRNAs"
         },
         {
           "id": "amil_features-track",
@@ -76,6 +136,31 @@
           "id": "amil_lncRNAs-track",
           "type": "FeatureTrack",
           "configuration": "amil_lncRNAs"
+        },
+        {
+          "id": "rna_140-track",
+          "type": "FeatureTrack",
+          "configuration": "rna_140"
+        },
+        {
+          "id": "rna_145-track",
+          "type": "FeatureTrack",
+          "configuration": "rna_145"
+        },
+        {
+          "id": "rna_150-track",
+          "type": "FeatureTrack",
+          "configuration": "rna_150"
+        },
+        {
+          "id": "rna_173-track",
+          "type": "FeatureTrack",
+          "configuration": "rna_173"
+        },
+        {
+          "id": "rna_178-track",
+          "type": "FeatureTrack",
+          "configuration": "rna_178"
         }
       ]
     }

@@ -152,7 +152,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "pmea_miRNAs",
-      "name": "Pmea miRNAs",
+      "name": "Ptuh miRNAs",
       "assemblyNames": [
         "Pmea_v1"
       ],
@@ -166,7 +166,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "pmea_lncRNAs",
-      "name": "Pmea lncRNAs",
+      "name": "Ptuh lncRNAs",
       "assemblyNames": [
         "Pmea_v1"
       ],

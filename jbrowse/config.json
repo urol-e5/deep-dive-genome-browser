@@ -1,4 +1,5 @@
 {
+  "baseUrl": "jbrowse/",
 "assemblies": [
   {
     "name": "Amil_v2.1",

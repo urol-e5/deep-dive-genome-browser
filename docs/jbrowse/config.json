@@ -178,25 +178,33 @@
       }
     }
   ],
-  "defaultSession": {
-  "name": "Apul Features",
-  "view": {
-    "id": "linear-genome-view-1",
-    "type": "LinearGenomeView",
-    "assemblyName": "Amil_v2.1",
-    "tracks": [
-      {
-        "type": "FeatureTrack",
-        "configuration": "Apul_miRNAs"
-      },
-      {
-        "type": "FeatureTrack",
-        "configuration": "amil_features"
-      },
-      {
-        "type": "FeatureTrack",
-        "configuration": "amil_lncRNAs"
-      }
-    ]
-  }
+"defaultSession": {
+  "name": "lncRNAs by species",
+  "views": [
+    {
+      "id": "amil-view",
+      "type": "LinearGenomeView",
+      "assemblyName": "Amil_v2.1",
+      "tracks": [
+        { "type": "FeatureTrack", "configuration": "amil_lncRNAs" }
+      ]
+    },
+    {
+      "id": "peve-view",
+      "type": "LinearGenomeView",
+      "assemblyName": "Peve_v1",
+      "tracks": [
+        { "type": "FeatureTrack", "configuration": "peve_lncRNAs" }
+      ]
+    },
+    {
+      "id": "pmea-view",
+      "type": "LinearGenomeView",
+      "assemblyName": "Pmea_v1",
+      "tracks": [
+        { "type": "FeatureTrack", "configuration": "pmea_lncRNAs" }
+      ]
+    }
+  ]
+}
 }

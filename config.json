@@ -24,7 +24,7 @@
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
-            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/deep-dive-genome-browser/data/Peve/Porites_evermanni_v1.fa.gz"
+            "uri": "data/Peve/Porites_evermanni_v1.fa.gz"
           },
           "faiLocation": {
             "uri": "data/Peve/Porites_evermanni_v1.fa.gz.fai"

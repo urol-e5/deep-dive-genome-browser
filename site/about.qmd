@@ -7,3 +7,12 @@ Platform accompanying manuscript:
 **Non-coding RNA Repertoire in Reef-Building Corals**
 Jill Ashey, Javier A. Rodriguez-Casariego, Kathleen M. Durkin, Zachary Bengtsson, Samuel J. White, Ariana S. Huffmyer, Danielle M. Becker, Jose M. Eirin-Lopez, Hollie M. Putnam, Steven B. Roberts
 bioRxiv 2025.03.15.643469; doi: <https://doi.org/10.1101/2025.03.15.643469>
+
+---
+
+::: {.badges}
+<p>
+  <img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser" />
+  <img src="https://img.shields.io/github/last-commit/urol-e5/deep-dive-genome-browser" />
+</p>
+:::

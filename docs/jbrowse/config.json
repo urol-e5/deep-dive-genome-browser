@@ -160,6 +160,18 @@
       }
     },
     {
+  "type": "FeatureTrack",
+  "trackId": "peve_pi_clusters",
+  "name": "Peve piRNA Clusters",
+  "assemblyNames": ["Peve_v1"],
+  "adapter": {
+    "type": "BedAdapter",
+    "bedLocation": {
+      "uri": "data/Peve/Peve_pi_clusters.bed"
+    }
+  }
+},
+    {
       "type": "FeatureTrack",
       "trackId": "pi_clusters",
       "name": "Apul piRNA Clusters",

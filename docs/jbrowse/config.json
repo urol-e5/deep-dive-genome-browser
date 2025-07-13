@@ -176,6 +176,18 @@
           "uri": "data/Ptuh-vPmea/Pmea_lncRNA.bed"
         }
       }
+    },
+    {
+  "type": "FeatureTrack",
+  "trackId": "pi_clusters",
+  "name": "Apul piRNA Clusters",
+  "assemblyNames": ["Amil_v2.1"],
+  "adapter": {
+    "type": "BEDAdapter",
+    "bedLocation": {
+      "uri": "data/Apul-vAmil/Apul_pi_clusters.bed"
     }
+  }
+}
   ]
 }

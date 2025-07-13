@@ -172,6 +172,18 @@
   }
 },
     {
+  "type": "FeatureTrack",
+  "trackId": "pmea_pi_clusters",
+  "name": "Ptuh piRNA Clusters",
+  "assemblyNames": ["Pmea_v1"],
+  "adapter": {
+    "type": "BedAdapter",
+    "bedLocation": {
+      "uri": "data/Ptuh-vPmea/Ptuh_pi_clusters.bed"
+    }
+  }
+},
+    {
       "type": "FeatureTrack",
       "trackId": "pi_clusters",
       "name": "Apul piRNA Clusters",

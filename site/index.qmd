@@ -5,3 +5,5 @@ Data-driven Insights into Variation and Epigenetics across coral species. This d
 ![](img/dive.png){fig-align="center" width="500px"}
 
 👉 [Explore JBrowse Genome Browser](jbrowse/index.html)
+
+For questions or feedback, [please submit an issue](https://github.com/urol-e5/deep-dive-genome-browser/issues/new/choose) 🧬

@@ -1,6 +1,6 @@
 # Welcome to DIVE 
 
-Data-driven Insights into Variation and Epigenetics across coral species. This data delivery platform spotlights a genome browser to explore epigenetic genome features across three species.
+Data-driven Insights into Variation and Epigenetics across coral species. This data delivery platform spotlights a genome browser to explore non-coding RNA features across three species.
 
 ![](img/dive.png){fig-align="center" width="500px"}
 

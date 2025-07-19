@@ -14,6 +14,7 @@ bioRxiv 2025.03.15.643469; doi: <https://doi.org/10.1101/2025.03.15.643469>
   <a href="https://github.com/urol-e5/deep-dive-genome-browser/releases">
     <img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser" />
   </a>
+  <a href="https://doi.org/10.5281/zenodo.16107396"><img src="https://zenodo.org/badge/1018173021.svg" alt="DOI"></a>
   <img src="https://img.shields.io/github/last-commit/urol-e5/deep-dive-genome-browser" />
   <img src="https://img.shields.io/badge/jbrowse-v3.6.2-darkblue" />
 </p>

@@ -155,7 +155,7 @@
       "adapter": {
         "type": "BedAdapter",
         "bedLocation": {
-          "uri": "data/Ptuh-vPmea/Pmea_lncRNA.bed"
+          "uri": "data/Ptuh-vPmea/Ptuh_lncRNA.bed"
         }
       }
     },

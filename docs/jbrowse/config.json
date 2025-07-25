@@ -63,7 +63,6 @@
         }
       }
     },
-  "tracks": [
     {
       "type": "FeatureTrack",
       "trackId": "Apul_star",
@@ -76,7 +75,6 @@
         }
       }
     },
-  "tracks": [
     {
       "type": "FeatureTrack",
       "trackId": "Apul_precursor",
@@ -88,7 +86,7 @@
           "uri": "data/Apul-vAmil/Apul_precursor.bed"
         }
       }
-    },    
+    },
     {
       "type": "FeatureTrack",
       "trackId": "amil_features",
@@ -186,29 +184,29 @@
       }
     },
     {
-  "type": "FeatureTrack",
-  "trackId": "peve_pi_clusters",
-  "name": "Peve piRNA Clusters",
-  "assemblyNames": ["Peve_v1"],
-  "adapter": {
-    "type": "BedAdapter",
-    "bedLocation": {
-      "uri": "data/Peve/Peve_pi_clusters.bed"
-    }
-  }
-},
+      "type": "FeatureTrack",
+      "trackId": "peve_pi_clusters",
+      "name": "Peve piRNA Clusters",
+      "assemblyNames": ["Peve_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Peve/Peve_pi_clusters.bed"
+        }
+      }
+    },
     {
-  "type": "FeatureTrack",
-  "trackId": "pmea_pi_clusters",
-  "name": "Ptuh piRNA Clusters",
-  "assemblyNames": ["Pmea_v1"],
-  "adapter": {
-    "type": "BedAdapter",
-    "bedLocation": {
-      "uri": "data/Ptuh-vPmea/Ptuh_pi_clusters.bed"
-    }
-  }
-},
+      "type": "FeatureTrack",
+      "trackId": "pmea_pi_clusters",
+      "name": "Ptuh piRNA Clusters",
+      "assemblyNames": ["Pmea_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Ptuh-vPmea/Ptuh_pi_clusters.bed"
+        }
+      }
+    },
     {
       "type": "FeatureTrack",
       "trackId": "pi_clusters",

@@ -63,6 +63,19 @@
         }
       }
     },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Apul_star",
+      "name": "Apul star miRNAs",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Apul-vAmil/Apul_star.bed"
+        }
+      }
+    },    
     {
       "type": "FeatureTrack",
       "trackId": "amil_features",

@@ -57,9 +57,9 @@
       "name": "Apul mature miRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
-        "type": "Gff3Adapter",
-        "gffLocation": {
-          "uri": "data/Apul-vAmil/Apul_mature.gff3"
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Apul-vAmil/Apul_mature.bed"
         }
       }
     },

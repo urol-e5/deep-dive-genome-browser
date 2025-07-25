@@ -75,6 +75,19 @@
           "uri": "data/Apul-vAmil/Apul_star.bed"
         }
       }
+    },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Apul_precursor",
+      "name": "Apul precursor miRNAs",
+      "assemblyNames": ["Amil_v2.1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Apul-vAmil/Apul_precursor.bed"
+        }
+      }
     },    
     {
       "type": "FeatureTrack",

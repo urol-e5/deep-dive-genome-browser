@@ -53,13 +53,13 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "Apul_miRNAs",
-      "name": "Apul miRNAs",
+      "trackId": "Apul_mature",
+      "name": "Apul mature miRNAs",
       "assemblyNames": ["Amil_v2.1"],
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "data/Apul-vAmil/known_miRNAs.gff3"
+          "uri": "data/Apul-vAmil/Apul_mature.gff3"
         }
       }
     },

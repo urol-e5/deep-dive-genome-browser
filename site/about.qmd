@@ -70,7 +70,7 @@ This genome was assembled from a sample collected in Mo’orea and is used direc
 
 ### mir-100
 
-<a href="https://urol-e5.github.io/deep-dive-genome-browser/jbrowse/?session=share-FZ8QYgaFR4&password=hpdf3" target="_blank">
+<a href="https://urol-e5.github.io/deep-dive-genome-browser/jbrowse/?session=share-dtdw2CP1tI&password=lhEEy" target="_blank">
   <img src="http://gannet.fish.washington.edu/seashell/snaps/Monosnap_JBrowse_2025-07-27_14-11-43.png" width="50%">
 </a>
 

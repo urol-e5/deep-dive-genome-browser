@@ -137,13 +137,37 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "peve_miRNAs",
-      "name": "Peve miRNAs",
+      "trackId": "peve_star",
+      "name": "Peve star miRNAs",
       "assemblyNames": ["Peve_v1"],
       "adapter": {
-        "type": "Gff3Adapter",
-        "gffLocation": {
-          "uri": "data/Peve/known_miRNAs.gff3"
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Peve/Peve_star.bed"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "peve_mature",
+      "name": "Peve mature miRNAs",
+      "assemblyNames": ["Peve_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Peve/Peve_mature.bed"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "peve_precursor",
+      "name": "Peve precursor miRNAs",
+      "assemblyNames": ["Peve_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Peve/Peve_precursor.bed"
         }
       }
     },
@@ -161,18 +185,6 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "pmea_miRNAs",
-      "name": "Ptuh miRNAs",
-      "assemblyNames": ["Pmea_v1"],
-      "adapter": {
-        "type": "Gff3Adapter",
-        "gffLocation": {
-          "uri": "data/Ptuh-vPmea/known_miRNAs.gff3"
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
       "trackId": "pmea_lncRNAs",
       "name": "Ptuh lncRNAs",
       "assemblyNames": ["Pmea_v1"],
@@ -180,6 +192,42 @@
         "type": "BedAdapter",
         "bedLocation": {
           "uri": "data/Ptuh-vPmea/Ptuh_lncRNA.bed"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ptuh_star",
+      "name": "Ptuh star miRNAs",
+      "assemblyNames": ["Pmea_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Ptuh-vPmea/Ptuh_star.bed"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ptuh_mature",
+      "name": "Ptuh mature miRNAs",
+      "assemblyNames": ["Pmea_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Ptuh-vPmea/Ptuh_mature.bed"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ptuh_precursor",
+      "name": "Ptuh precursor miRNAs",
+      "assemblyNames": ["Pmea_v1"],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "data/Ptuh-vPmea/Ptuh_precursor.bed"
         }
       }
     },
